@@ -1,0 +1,16 @@
+channels:
+  - defaults
+dependencies:
+  - python=3.6.7
+  - pip=19.0.3
+  - numpy=1.17.2 # so we get the mkl libs as well
+  - pip:
+    - pytest==4.6.3
+    - pylint==2.3.1
+    - flask==1.1.1
+    - gunicorn==20.0.4
+    - opencv-python==4.5.1.48
+    - imutils==0.5.4
+    - tensorflow==2.4.0
+    - streamlit==0.74.1
+    - streamlit-webrtc
